@@ -18,9 +18,10 @@ The above ensures that you pull in the zbar, secp256k1, and other submodules.
 
 ## 2. Make sure coreutils is installed
 
-With [brew](https://brew.sh), run
+With [brew](https://brew.sh) installed, run
 
     brew install coreutils
+    brew install pyenv
 
 ## 3. Use the provided script to begin building.
 
