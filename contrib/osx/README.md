@@ -18,10 +18,15 @@ The above ensures that you pull in the zbar, secp256k1, and other submodules.
 
 ## 2. Make sure coreutils is installed
 
-With [brew](https://brew.sh) installed, run
+With [brew](https://brew.sh) or [macports](https://www.macports.org) installed, run
 
-    brew install coreutils
-    brew install pyenv
+```shell
+brew install coreutils
+brew install pyenv
+
+# OR, with macports
+sudo port install coreutils
+```
 
 ## 3. Use the provided script to begin building.
 
